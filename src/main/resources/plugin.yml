@@ -1,0 +1,13 @@
+name: Custom_Plugins
+version: '${project.version}'
+main: me.jmboy.custom_plugins.Custom_plugins
+api-version: 1.19
+commands:
+  sethome:
+    description: Sets home location
+    usage: /sethome
+    aliases: sh
+  home:
+    description: Teleports you to your set home location
+    usage: /home
+    aliases: h
